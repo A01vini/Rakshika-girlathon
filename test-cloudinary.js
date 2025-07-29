@@ -2,9 +2,9 @@ const cloudinary = require('cloudinary').v2;
 const path = require('path');
 
 cloudinary.config({
-  cloud_name: 'dmtawirc8', // your cloud name
-  api_key: '668871912167762', // your API key
-  api_secret: 'XXID9hpgWcAus2_d7NdGvQo0wqg', // your secret
+  cloud_name: 'your_cloud_name', // your cloud name
+  api_key: , // your API key
+  api_secret: ' // your secret
 });
 
 const testUpload = async () => {
